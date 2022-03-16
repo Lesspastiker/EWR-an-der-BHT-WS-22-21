@@ -12,8 +12,8 @@
     # Ein Object der Klasse erstellen 
     S = Stripmethod(funktion, linke_grenze, rechte_grenze, iterationen)
     ```
-    >Dabei bestimmen die linke und rechte grenze das Intervall und "iterationen" die Anzahl an Rechtecken oder Streifen die errechnet werden sollen
-
+    >Dabei bestimmen die linke und rechte grenze das Intervall und "iterationen" die Anzahl an Rechtecken oder Streifen die errechnet werden sollen, vorrausssetzung ist das die Funktion stetig ist, sonst erhält man einen Null-Divisions Fehler!
+    
     um dann zu ploten muss nur noch:
     ```python
     # zum Plotten der Untersumme
@@ -59,7 +59,7 @@
 
   - ### Mit Python Syntax
     > #### Um Funktionen in einfacher Python Syntax zu verwenden, kann man den lambda_parser() benutzen der nur den Funktionsterm als string benötigt:
-
+    
     ```python
     from Stripmethod import Stripmethod
     from Stripmethod import lambda_parser
@@ -68,6 +68,7 @@
     
     A.plotOberUnter()
     ``` 
+    > Dieses feature ist noch experimentell, fehler können bei dieser Funktion noch auftretten!
   
   - ### Berrechnungen ohne Plot
   
