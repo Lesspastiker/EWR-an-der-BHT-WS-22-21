@@ -1,6 +1,6 @@
 # EWR1
 
-### Von Alfred W. und Lennard C.
+### Von Alfred W. und Lennart C.
 
 ## Benutzung 
 
